@@ -1,0 +1,55 @@
+:root {
+  /* Colors */
+  --color-black: #000000;
+  --color-dark: #0d0d0d;
+  --color-dark-surface: rgba(33, 38, 45, 0.5);
+  --color-border: #39424e;
+  --color-white: #ffffff;
+  --color-gray: #949494;
+  --color-gray-dark: #545454;
+  --color-gray-light: #6f6f6f;
+  
+  /* Brand */
+  --color-primary: #10ff91;
+  --color-primary-dark: #1fe389;
+  --color-primary-darker: #1e3932;
+  
+  /* Category colors */
+  --color-menus: #fefae1;
+  --color-food-drink: #cadfcc;
+  --color-events: #9fb8aa;
+  --color-seasonal: #c0bbb1;
+  --color-apps-games: #a3c9d8;
+  --color-social: #ffecb2;
+  
+  /* Typography */
+  --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-display: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  
+  /* Spacing */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-2xl: 48px;
+  
+  /* Border radius */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 32px;
+  --radius-full: 48px;
+  
+  /* Transitions */
+  --transition-fast: 150ms ease;
+  --transition-normal: 250ms ease;
+  --transition-slow: 350ms ease;
+  
+  /* Shadows */
+  --shadow-card: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+  /* Z-index */
+  --z-nav: 100;
+  --z-modal: 200;
+  --z-toast: 300;
+}

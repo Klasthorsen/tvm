@@ -1,0 +1,46 @@
+.page-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding-top: 48px;
+  margin-bottom: var(--spacing-lg);
+}
+
+.header-btn {
+  flex-shrink: 0;
+}
+
+.back-btn {
+  width: 26px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-btn {
+  width: 46px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-full);
+}
+
+.header-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.header-title {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  color: var(--color-white);
+}
+
+.header-subtitle {
+  font-size: 16px;
+  color: var(--color-gray-light);
+  margin-top: 4px;
+}

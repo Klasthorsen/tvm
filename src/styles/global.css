@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import './variables.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-primary);
+  background-color: var(--color-black);
+  color: var(--color-white);
+  min-height: 100vh;
+  min-height: 100dvh;
+  overflow-x: hidden;
+}
+
+#root {
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  font-family: inherit;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+input, textarea, select {
+  font-family: inherit;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+/* Mobile app container */
+.app-container {
+  max-width: 393px;
+  margin: 0 auto;
+  min-height: 100vh;
+  min-height: 100dvh;
+  position: relative;
+  background: var(--color-black);
+  overflow-x: hidden;
+}
+
+/* Page wrapper */
+.page {
+  padding: var(--spacing-2xl) var(--spacing-md) 200px;
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+/* Glass effect */
+.glass {
+  background: var(--color-dark-surface);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--color-border);
+}
+
+/* Typography */
+.text-header-lg {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.text-header-md {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.text-body {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.05;
+}
+
+.text-caption {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.text-small {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.text-primary {
+  color: var(--color-primary);
+}
+
+.text-secondary {
+  color: var(--color-gray);
+}
+
+.text-muted {
+  color: var(--color-gray-dark);
+}

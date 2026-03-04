@@ -1,0 +1,61 @@
+.sports-card {
+  padding: var(--spacing-md);
+  border-radius: var(--radius-sm);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+  transition: border-color var(--transition-fast);
+}
+
+.teams {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.team {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+}
+
+.team-logo {
+  width: 44px;
+  height: 44px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+}
+
+.team-logo img {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+}
+
+.team-name {
+  font-size: 16px;
+  color: var(--color-white);
+}
+
+.game-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.game-time {
+  font-size: 13px;
+  color: var(--color-gray-dark);
+  text-transform: uppercase;
+}
+
+.promote-btn {
+  padding: 12px;
+  border-radius: var(--radius-full);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-primary);
+}
