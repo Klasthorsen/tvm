@@ -4,20 +4,29 @@
 export const assets = {
   // Navigation icons
   icons: {
-    home: "https://www.figma.com/api/mcp/asset/62ade56a-b517-4df2-8217-daa8738b2736",
-    homeActive: "https://www.figma.com/api/mcp/asset/8e9c98e6-1801-4719-a74b-325e938c81c4",
-    list: "https://www.figma.com/api/mcp/asset/462d60b2-421b-46ad-9aa9-d8389343cf41",
-    filePlus: "https://www.figma.com/api/mcp/asset/dbacd823-c773-4f68-a304-cb33c6cae2c9",
-    barChart: "https://www.figma.com/api/mcp/asset/488b3b4b-3ca5-4e55-98a1-644f8bcbd6e3",
-    chevronRight: "https://www.figma.com/api/mcp/asset/10d92a52-1977-4bc2-a553-6dfa6723c5a3",
-    chevronLeft: "https://www.figma.com/api/mcp/asset/e8df7aac-2d61-4380-a0ae-2867a8c2b11e",
-    bell: "https://www.figma.com/api/mcp/asset/54a7ea6c-73e0-4577-a185-be40efe055f7",
-    x: "https://www.figma.com/api/mcp/asset/0e5ddcdc-e359-41ec-bcd5-88b9a44ab4cc",
-    arrowCircleRight: "https://www.figma.com/api/mcp/asset/38212057-3a3e-4b76-b451-9b6797aa5d62",
-    sparkles: "https://www.figma.com/api/mcp/asset/ff29e6ff-9c8c-4e6d-99cb-1cff0f95d736",
-    circlePlus: "https://www.figma.com/api/mcp/asset/805c6c01-8939-4383-83ad-4774ea3e4c98",
-    upload: "https://www.figma.com/api/mcp/asset/6cababe2-e4b4-48ca-a476-f09d5db3fa19",
-    heart: "https://www.figma.com/api/mcp/asset/9084a486-77fa-4093-b863-7a5490e0b829",
+    home: "https://www.figma.com/api/mcp/asset/64a64c4b-5ffe-43ad-885b-87aeef0b434d",
+    onAir: "https://www.figma.com/api/mcp/asset/fe843ab7-3abd-4704-84b6-e01cb3288493",
+    studio: "https://www.figma.com/api/mcp/asset/1f92ccef-a56c-4e4d-84be-7c0b954ada68",
+    more: "https://www.figma.com/api/mcp/asset/11db5010-7b70-4097-aa89-377af5208ddd",
+    wifi: "https://www.figma.com/api/mcp/asset/2fa50609-6687-4e03-a1e9-73c64faed586",
+    wifiOff: "https://www.figma.com/api/mcp/asset/1031be98-ef3f-435d-a7b9-398122944103",
+    barChart: "https://www.figma.com/api/mcp/asset/9f7a1398-cc0f-499f-85e8-c2b7a15ffec7",
+    chevronRight: "https://www.figma.com/api/mcp/asset/4c4440a2-3e1c-48ee-bc85-a2fdecda2ac9",
+  },
+  
+  // On Air - Active Content thumbnails
+  onAir: {
+    novemberSpecials: "https://www.figma.com/api/mcp/asset/124193d9-dd88-4e31-901a-63f8227011f3",
+    cocktailSpecials: "https://www.figma.com/api/mcp/asset/f9531fc1-535f-4569-8480-a14282defa43",
+    drinkOfTheWeek: "https://www.figma.com/api/mcp/asset/7c19f1e9-8612-4431-a2f1-dee9d725bdbf",
+    pimmsCup: "https://www.figma.com/api/mcp/asset/d5bdbccc-39db-4a03-afc1-39077634c9a9",
+    moodChannel: "https://www.figma.com/api/mcp/asset/3acd903d-e700-49e9-8277-9ad453917c8f",
+  },
+  
+  // On Air - Now Playing screen thumbnails
+  screens: {
+    barOne: "https://www.figma.com/api/mcp/asset/d4aedb24-8c96-4b33-a13b-44ac1056a618",
+    barTwo: "https://www.figma.com/api/mcp/asset/c39f5cdb-f6af-44b3-90c0-91793b311fb4",
   },
   
   // Featured content

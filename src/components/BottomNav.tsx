@@ -1,13 +1,13 @@
 import { NavLink, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Home, List, FilePlus, BarChart2 } from 'lucide-react';
+import { Home, LayoutGrid, FilePlus, MoreHorizontal } from 'lucide-react';
 import './BottomNav.css';
 
 const navItems = [
   { path: '/', icon: Home, label: 'Home' },
-  { path: '/on-air', icon: List, label: 'On Air' },
+  { path: '/on-air', icon: LayoutGrid, label: 'On Air' },
   { path: '/studio', icon: FilePlus, label: 'Studio' },
-  { path: '/more', icon: BarChart2, label: 'More' },
+  { path: '/more', icon: MoreHorizontal, label: 'More' },
 ];
 
 export default function BottomNav() {
@@ -45,13 +45,6 @@ export default function BottomNav() {
                 <span className={isActive ? 'nav-label active' : 'nav-label'}>
                   {item.label}
                 </span>
-                {isActive && (
-                  <motion.div
-                    className="nav-indicator"
-                    layoutId="nav-indicator"
-                    transition={{ type: 'spring', stiffness: 500, damping: 30 }}
-                  />
-                )}
               </motion.div>
             </NavLink>
           );
