@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { 
   User, 
@@ -7,21 +8,33 @@ import {
   HelpCircle, 
   LogOut,
   ChevronRight,
-  Settings
+  Settings,
+  PlayCircle,
+  ListOrdered
 } from 'lucide-react';
 import PageHeader from '../components/PageHeader';
 import './More.css';
 
 const menuItems = [
-  { id: 'account', icon: User, label: 'Account settings' },
-  { id: 'venue', icon: Building2, label: 'Venue settings' },
-  { id: 'brand', icon: Palette, label: 'Brand profile' },
-  { id: 'notifications', icon: Bell, label: 'Notifications' },
-  { id: 'help', icon: HelpCircle, label: 'Help & support' },
-  { id: 'settings', icon: Settings, label: 'App settings' },
+  { id: 'account', icon: User, label: 'Account settings', route: null },
+  { id: 'venue', icon: Building2, label: 'Venue settings', route: null },
+  { id: 'brand', icon: Palette, label: 'Brand profile', route: '/onboarding/brand' },
+  { id: 'content', icon: PlayCircle, label: 'Active content', route: '/active-content' },
+  { id: 'queue', icon: ListOrdered, label: 'Play queue', route: '/active-content' },
+  { id: 'notifications', icon: Bell, label: 'Notifications', route: null },
+  { id: 'help', icon: HelpCircle, label: 'Help & support', route: null },
+  { id: 'settings', icon: Settings, label: 'App settings', route: null },
 ];
 
 export default function More() {
+  const navigate = useNavigate();
+
+  const handleMenuClick = (route: string | null) => {
+    if (route) {
+      navigate(route);
+    }
+  };
+
   return (
     <motion.div 
       className="page more-page"
@@ -53,6 +66,7 @@ export default function More() {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: index * 0.05 }}
                 whileTap={{ scale: 0.98 }}
+                onClick={() => handleMenuClick(item.route)}
               >
                 <Icon size={24} className="menu-icon" />
                 <span className="menu-label">{item.label}</span>

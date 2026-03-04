@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import PageHeader from '../components/PageHeader';
 import QuickActions from '../components/QuickActions';
@@ -9,6 +10,8 @@ import { upcomingGames, trendingTemplates, apps } from '../data/content';
 import './Studio.css';
 
 export default function Studio() {
+  const navigate = useNavigate();
+
   return (
     <motion.div 
       className="page studio-page"
@@ -32,7 +35,7 @@ export default function Studio() {
         </section>
         
         <section className="studio-section">
-          <SectionHeader title="Sports" />
+          <SectionHeader title="Sports" onSeeAll={() => navigate('/sports')} />
           <div className="sports-list">
             {upcomingGames.map((game) => (
               <SportsCard key={game.id} game={game} />
