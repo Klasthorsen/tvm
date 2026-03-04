@@ -46,7 +46,7 @@ const initialContent: ContentItem[] = [
   {
     id: '4',
     title: 'Craft Beer Selection',
-    image: assets.themes.beer,
+    image: assets.themes.craftBeer,
     duration: 8,
     priority: 'low',
     status: 'scheduled',

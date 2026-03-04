@@ -1,4 +1,4 @@
-// Figma assets - these are temporary URLs valid for 7 days
+// Figma assets from prototype
 // In production, download and host these locally
 
 export const assets = {
@@ -12,6 +12,27 @@ export const assets = {
     wifiOff: "https://www.figma.com/api/mcp/asset/1031be98-ef3f-435d-a7b9-398122944103",
     barChart: "https://www.figma.com/api/mcp/asset/9f7a1398-cc0f-499f-85e8-c2b7a15ffec7",
     chevronRight: "https://www.figma.com/api/mcp/asset/4c4440a2-3e1c-48ee-bc85-a2fdecda2ac9",
+    bell: "https://www.figma.com/api/mcp/asset/3b506118-af62-42bd-93a6-7acef91f65e4",
+  },
+
+  // Home page - Featured content
+  home: {
+    superBowlCard: "https://www.figma.com/api/mcp/asset/6cba3017-faa1-495e-8a01-66821263daeb",
+    superBowlOverlay: "https://www.figma.com/api/mcp/asset/451e29f7-cab0-4695-8cd6-d632e20b5478",
+  },
+
+  // Trending templates (video thumbnails from prototype)
+  trending: {
+    cocktailBar: "https://www.figma.com/api/mcp/asset/53b410c6-6a48-4232-a6fb-888b2f4328b3", // inna-safa cocktail
+    // Video thumbnails - these show as static images in Figma but represent video content
+  },
+
+  // Popular themes thumbnails
+  themes: {
+    craftBeer: "https://www.figma.com/api/mcp/asset/0af23e7d-24ea-4e4b-859b-9fa3dc1c52b7",
+    weeklyMenu: "https://www.figma.com/api/mcp/asset/9063cef2-33db-4331-8324-fafe08a4bd46",
+    brunch: "https://www.figma.com/api/mcp/asset/04589c40-fae3-4a46-85ad-4091d4a83361",
+    liveMusic: "https://www.figma.com/api/mcp/asset/04589c40-fae3-4a46-85ad-4091d4a83361",
   },
   
   // On Air - Active Content thumbnails
@@ -29,26 +50,19 @@ export const assets = {
     barTwo: "https://www.figma.com/api/mcp/asset/c39f5cdb-f6af-44b3-90c0-91793b311fb4",
   },
   
-  // Featured content
+  // Featured content (legacy)
   featured: {
-    superBowl: "https://www.figma.com/api/mcp/asset/d16ea048-e548-443f-bed7-cb3c18519bc4",
-    superBowlOverlay: "https://www.figma.com/api/mcp/asset/bf629473-d82a-41b8-bb48-099d5f52100d",
+    superBowl: "https://www.figma.com/api/mcp/asset/6cba3017-faa1-495e-8a01-66821263daeb",
+    superBowlOverlay: "https://www.figma.com/api/mcp/asset/451e29f7-cab0-4695-8cd6-d632e20b5478",
   },
   
-  // Template images
+  // Template images for carousels
   templates: {
-    cocktail1: "https://www.figma.com/api/mcp/asset/23cd0bf5-9066-465b-b7a8-5494458746b6",
-    cocktail2: "https://www.figma.com/api/mcp/asset/6b16bc66-102a-48d8-93f8-3e9f18588835",
-    food1: "https://www.figma.com/api/mcp/asset/90cfcc82-0169-496d-9437-c6082f7162bc",
-    sports1: "https://www.figma.com/api/mcp/asset/8bfbc83b-6895-4d4e-a89f-7f3d1a8456f4",
-    greenCocktail: "https://www.figma.com/api/mcp/asset/b15335c4-caae-4352-b9bd-5d01476708c1",
-  },
-  
-  // Theme thumbnails
-  themes: {
-    beer: "https://www.figma.com/api/mcp/asset/8fe996c1-0998-47f9-b754-c5564fc1a14b",
-    menu: "https://www.figma.com/api/mcp/asset/6886f96a-0576-40b8-b753-8507bdf99472",
-    brunch: "https://www.figma.com/api/mcp/asset/c484a5fc-a053-4aae-98db-c4d1467c9f4e",
+    cocktail1: "https://www.figma.com/api/mcp/asset/53b410c6-6a48-4232-a6fb-888b2f4328b3",
+    cocktail2: "https://www.figma.com/api/mcp/asset/53b410c6-6a48-4232-a6fb-888b2f4328b3",
+    food1: "https://www.figma.com/api/mcp/asset/53b410c6-6a48-4232-a6fb-888b2f4328b3",
+    sports1: "https://www.figma.com/api/mcp/asset/6cba3017-faa1-495e-8a01-66821263daeb",
+    greenCocktail: "https://www.figma.com/api/mcp/asset/53b410c6-6a48-4232-a6fb-888b2f4328b3",
   },
   
   // App icons
@@ -75,7 +89,7 @@ export const assets = {
   },
   
   // Navigation bar background
-  navBar: "https://www.figma.com/api/mcp/asset/090c96c4-9f97-45ba-be5a-70ac9e350420",
+  navBar: "https://www.figma.com/api/mcp/asset/d12f3eb5-70ab-40b3-aeb7-591eb88e3b5a",
 };
 
 export default assets;

@@ -67,13 +67,13 @@ export const popularThemes: Theme[] = [
     id: '1',
     title: 'Craft beer selection',
     subtitle: "Display what's on tap",
-    icon: assets.themes.beer,
+    icon: assets.themes.craftBeer,
   },
   {
     id: '2',
     title: 'Weekly menu',
     subtitle: 'Show the weekly menu',
-    icon: assets.themes.menu,
+    icon: assets.themes.weeklyMenu,
   },
   {
     id: '3',
@@ -85,7 +85,7 @@ export const popularThemes: Theme[] = [
     id: '4',
     title: 'Live music night',
     subtitle: 'Highlight local bands',
-    icon: assets.themes.beer,
+    icon: assets.themes.liveMusic,
   },
 ];
 

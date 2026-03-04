@@ -10,7 +10,7 @@ const contentOptions = [
     id: 'menus',
     title: 'Menus',
     description: 'Display food and drink menus',
-    image: assets.themes.menu,
+    image: assets.themes.weeklyMenu,
     color: 'var(--color-menus)',
   },
   {
